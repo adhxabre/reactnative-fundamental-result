@@ -1,9 +1,7 @@
-# NativeBase Expo Template
+# Component
 
-The official NativeBase template for [Expo](https://docs.expo.io/)
+a React Native Class or sometime a Function that is part of the UI.
 
-## Usage
+For example: Button, NavBar, Footer, Card, etc. Combine it like a puzzle to build an amazing app!
 
-```sh
-expo init my-app --template @native-base/expo-template
-```
+The html look like syntax inside component render method are called JSX, but note the different, it use camel case such as “className” instead “class”, “View” instead “div”, etc
