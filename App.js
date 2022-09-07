@@ -3,13 +3,12 @@ import React from "react";
 import { View } from "react-native";
 
 //Import Screen
-import Map from "./src/screens/Map";
+import List from "./src/screens/List";
 
 export default function App() {
   return (
     <View style={{ marginTop: 100 }}>
-      <StatusBar />
-      <Map />
+      <List />
     </View>
   );
 }
