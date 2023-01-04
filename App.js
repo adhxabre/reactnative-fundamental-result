@@ -62,7 +62,7 @@ export default function App() {
   });
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return;
   } else {
     return (
       <NativeBaseProvider theme={theme}>
